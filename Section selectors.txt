@@ -1,0 +1,6 @@
+Section selectors:
+
+section div.image {
+	size: 50%;
+
+}
