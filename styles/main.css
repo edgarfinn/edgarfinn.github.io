@@ -16,8 +16,15 @@ body {
   margin: auto;
   text-align: center;
 }
+.section-my-skills {
+  padding: 1rem;
+  background-color: #AA5585;
+  min-height: 100vh;
+}
 
+/* v contact footer v */
 .section-header, .contact-details {
+  text-align: center;
   font-family: monospace;
   color: #fff;
   font-size: 1.5rem;
