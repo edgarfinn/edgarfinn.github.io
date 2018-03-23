@@ -8,13 +8,14 @@
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" type="text/css" href="styles/grid.css">
   <link rel="stylesheet" type="text/css" href="styles/main.css">
+  <link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css" />
   <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   <title>Edgar Dewsbery | Developer</title>
   <meta name="Description" content="Edgar Dewsbery, Full Stack web developer based in London. Graduate of Founders and Coders, obsessed with Javascript." />
 </head>
 <body>
-  <main class="page-content">
-    <section class="page-section section-hero flex flex-column flex-centered">
+  <main class="page-content" id="fullpage">
+    <section class="section page-section section-hero flex flex-column flex-centered">
       <header class="section-header large-8 small-11">
         <h1>
           <span>
@@ -30,14 +31,15 @@
       </header>
     </section>
 
-    <section class="page-section section-my-skills flex flex-column">
+    <section class="section page-section section-my-skills flex flex-column">
       <h2 class="section-header">My Skills</h2>
     </section>
 
-    <section class="page-section section-my-work flex flex-column">
+    <section class="section page-section section-my-work">
       <h2 class="section-header">My Work</h2>
     </section>
-    <footer class="section-footer flex flex-column flex-centered">
+
+    <footer class="section section-footer flex flex-column flex-centered">
       <h2 class="section-header">Get in touch</h2>
       <p class="contact-details">edewsbery[at]gmail.com</p>
       <p class="contact-details">+44(0)7855 340 808</p>
@@ -54,6 +56,8 @@
       </div>
     </footer>
   </main>
-
+<script src="scripts/jquery/jquery.min.js"></script>
+<script src="scripts/jquery/jquery.fullpage.min.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>
