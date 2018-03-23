@@ -10,16 +10,23 @@ body {
   padding: 0;
 }
 
-.section-hero {
+.page-section {
   height: 100vh;
+}
+
+.section-hero {
   background-color: #4191e1;
   margin: auto;
   text-align: center;
 }
+
 .section-my-skills {
   padding: 1rem;
   background-color: #AA5585;
-  min-height: 100vh;
+}
+
+.section-my-work {
+  background-color: pink;
 }
 
 /* v contact footer v */
